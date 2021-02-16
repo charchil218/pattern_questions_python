@@ -1,0 +1,85 @@
+"""
+1 
+
+2 3 
+
+4 5 6 
+
+7 8 9 10 
+
+
+n=int(input("enter no. of rows"))
+num=1
+for row in range(1,n+1):
+    for col in range(1,row+1):
+        print(num,end=" ")
+        num+=1
+
+    print("\n")
+
+
+
+
+
+p
+
+py
+
+pyt
+
+pyth
+
+pytho
+
+python
+
+
+n=input("enter the string: ")
+word=n[0]
+for row in range(len(n)):
+    for col in range(row+1):
+        print(n[col],end="")
+        
+    print("\n")
+
+
+
+
+12345
+
+1234
+
+123
+
+12
+
+1
+
+n=int(input("no. of rows"))
+for row in range(n+1,0,-1):
+    for col in range(1,row):
+        print(col,end="")
+        col=col-1
+    print("\n")
+
+
+
+
+55555
+
+4444
+
+333
+
+22
+
+1
+
+n=int(input("no. of rows"))
+for row in range(n,0,-1):
+    for col in range(1,row+1):
+        print(row,end="")
+    print("\n")
+
+"""
+
